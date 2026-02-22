@@ -1,0 +1,10 @@
+[tools]
+node = "24.13.1"
+
+[tasks.build]
+dir = "csv-type-converter"
+run = "npm run build"
+
+[tasks.debug]
+dir = "csv-type-converter"
+run = "npm run dev"
